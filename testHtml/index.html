@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pseudo Data Entry Form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-block">
+      <form action="/">
+        <h1>Data Entry</h1>
+        <fieldset>
+          <legend>
+            <h3>Details</h3>
+          </legend>
+
+          <section class="seller-details">
+            <h3>Seller</h3>
+            <section class="topPart">
+              <div>
+                <label for="name1">Name </label>
+                <input type="text" name="name1" id="name1" />
+              </div>
+              <div>
+                <label for="nid1">ID*</label>
+                <input type="text" name="nid1" id="nid1" required />
+              </div>
+            </section>
+            <section class="bottomPart">
+              <div>
+                <label for="tambon1">Tambon</label>
+                <input type="text" name="tambon1" id="tambon1" />
+              </div>
+              <div>
+                <label for="district1">District</label>
+                <input type="text" name="district1" id="district1" required />
+              </div>
+              <div>
+                <label for="province1">Province</label>
+                <input type="text" name="province1" id="province1" required />
+              </div>
+            </section>
+          </section>
+
+          <section class="buyer-details">
+            <h3>Buyer</h3>
+            <section class="topPart">
+              <div>
+                <label for="name2">Name </label>
+                <input type="text" name="name2" id="name2" />
+              </div>
+              <div>
+                <label for="nid2">ID*</label>
+                <input type="text" name="nid2" id="nid2" required />
+              </div>
+            </section>
+            <section class="bottomPart">
+              <div>
+                <label for="tambon2">Tambon</label>
+                <input type="text" name="tambon2" id="tambon2" />
+              </div>
+              <div>
+                <label for="district2">District</label>
+                <input type="text" name="district2" id="district2" required />
+              </div>
+              <div>
+                <label for="province2">Province</label>
+                <input type="text" name="province2" id="province2" required />
+              </div>
+            </section>
+          </section>
+        </fieldset>
+
+        <button type="submit" href="/">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
