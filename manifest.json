@@ -1,0 +1,25 @@
+{
+  "name": "RiD Helper",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Check ID, Increase visited field height and autofill",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "downloads",
+    "fileSystem"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "action": {
+    "default_title": "Export/Import Data",
+    "default_popup": "popup.html"
+  }
+}
