@@ -11,3 +11,6 @@ I created a Chrome extension that can helps data entry enter data faster. This i
 
 This extension has been a big help for me and my coworker in performing mundane tasks. It can reduce the time required around 20% per document! 😊!
 
+If you're interested in trying out my Chrome extension, feel free to test it out and clone the Git repo or download the code to try it for yourself.
+I welcome any feedback or suggestions you may have, so don't hesitate to reach out to me. Thank you for your interest! 😇
+
